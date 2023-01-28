@@ -75,8 +75,19 @@ str(8)
 int = "I am just a number"
 #print(int)
 
-print("How many kilometers did you cycle today?")
-kms = input()
-miles = float(kms)/1.60934
-miles = round(miles,2)
-print(f"Your {kms}km ride is {miles}mi ")
+# print("How many kilometers did you cycle today?")
+# kms = input()
+# miles = float(kms)/1.60934
+# miles = round(miles,2)
+# print(f"Your {kms}km ride is {miles}mi ")
+
+name = "Arya Stark"
+
+if name == "Arya Stark":
+    print("Valar Morghulis")
+elif name == "Jon Snow":
+    print("you know nothing")
+else:
+    print("Carry On")
+
+
