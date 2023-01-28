@@ -81,13 +81,33 @@ int = "I am just a number"
 # miles = round(miles,2)
 # print(f"Your {kms}km ride is {miles}mi ")
 
-name = "Arya Stark"
+# name = "Bob"
 
-if name == "Arya Stark":
-    print("Valar Morghulis")
-elif name == "Jon Snow":
-    print("you know nothing")
+# if name == "Arya Stark":
+#     print("Valar Morghulis")
+# elif name == "Jon Snow":
+#     print("you know nothing")
+# elif name == "Bob":
+#     print("you know nothing")
+# else:
+#     print("Carry On")
+
+# x =  1 
+# print("yay")
+# x is 1 
+# elif x = "2":
+
+# animal = input("enter your favourite animal")
+
+# if animal:
+#     print (animal + " is my favourite animal to")
+# else: 
+#     print("you didn't say anything")
+
+city = input("where do you live?")
+
+if city == "los angeles" or city == "san francisco":
+    print("You live in Cali")
 else:
-    print("Carry On")
-
+    print("You live elsewhere")
 
