@@ -1,79 +1,79 @@
-#print("My first python program")
+# print("My first python program")
 
-x=100
-# print(x)
+# x=100
+# # print(x)
 
-num_of_cats = 198
-num_of_cats = num_of_cats - 1
-# print(num_of_cats)
+# num_of_cats = 198
+# num_of_cats = num_of_cats - 1
+#  print(num_of_cats)
 
-friends = num_of_cats
-# print(friends)
+# friends = num_of_cats
+# # print(friends)
 
-# print(friends/5)
+# # print(friends/5)
 
-is_active=True
-# print(is_active)
+# is_active=True
+# # print(is_active)
 
-Name = "Daisy"
-age = 30
-child = None 
-# print(child)
-# print(Name)
+# Name = "Daisy"
+# age = 30
+# child = None 
+# # print(child)
+# # print(Name)
 
-my_other_str="a hat"
-#print(my_other_str)
+# my_other_str="a hat"
+# #print(my_other_str)
 
-new_line = "hello \nworld"
-#print(new_line)
+# new_line = "hello \nworld"
+# #print(new_line)
 
-new_str = "Hello\\World"
-#print(new_str)
+# new_str = "Hello\\World"
+# #print(new_str)
 
-quotation = "my cat said \"meow\""
-#print(quotation)
+# quotation = "my cat said \"meow\""
+# #print(quotation)
 
-mountains = "/\\/\\/\\"
-#print(mountains)
+# mountains = "/\\/\\/\\"
+# #print(mountains)
 
-message = "Hello \n World"
-#print(message)
+# message = "Hello \n World"
+# #print(message)
 
-str_one="your"
-str_two="face"
-str_three= str_one + " " + str_two
-#print(str_three)
+# str_one="your"
+# str_two="face"
+# str_three= str_one + " " + str_two
+# #print(str_three)
 
-username = "Blue"
-#print("Hello there, " + username)
+# username = "Blue"
+# #print("Hello there, " + username)
 
-name = "a" + "b" + "z"
-#print(name)
+# name = "a" + "b" + "z"
+# #print(name)
 
-st_one = "ice"
-st_one += " cream"
-#print(st_one)
+# st_one = "ice"
+# st_one += " cream"
+# #print(st_one)
 
-x = 10 
-formatted = f"I've told you {x} times"
-#print(formatted)
+# x = 10 
+# formatted = f"I've told you {x} times"
+# #print(formatted)
 
 
-answer = "yes"
-#print(answer)
+# answer = "yes"
+# #print(answer)
 
-decimal = 12.56348734934
-integer = int(decimal)
-#print(integer)
+# decimal = 12.56348734934
+# integer = int(decimal)
+# #print(integer)
 
-num = 12
-num = float(num)
+# num = 12
+# num = float(num)
 
-str(8)
-#print(str)
+# str(8)
+# #print(str)
 
-int = "I am just a number"
-#print(int)
+# int = "I am just a number"
+# #print(int)
 
 # print("How many kilometers did you cycle today?")
 # kms = input()
@@ -104,10 +104,30 @@ int = "I am just a number"
 # else: 
 #     print("you didn't say anything")
 
-city = input("where do you live?")
+# city = input("where do you live?")
 
-if city == "los angeles" or city == "san francisco":
-    print("You live in Cali")
+# if city == "los angeles" or city == "san francisco":
+#     print("You live in Cali")
+# else:
+#     print("You live elsewhere")
+
+# age = 30
+# #2-8 2$ ticket 
+# #65 5$ ticket 
+# #other 10$ ticket 
+# if not ((age >= 2 and age <=8) or age >= 65):
+#     print ("you pay 10 dollars")
+# else:
+#     print("you are a child or senior")
+
+age = input("How old are you:")
+if age != "":
+    age = int(age)
+    if age >= 18 and age < 21: 
+        print("You can enter but need a wrist band")
+    elif age >= 21:
+        print("You are good to come in and drink")
+    else: 
+        print("You can't come in, little one! :(")
 else:
-    print("You live elsewhere")
-
+    print("enter an age")
