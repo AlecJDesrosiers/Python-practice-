@@ -1,26 +1,35 @@
+import random
+
 print("Rock.....")
 print("Paper.....")
 print("Scissor.....")
 
-player1 = input("Player 1, make your move: ")
-print("***No Cheating!\n\n" * 20)
-player2 = input("Player 2, make your move: ")
-if  player1 == player2:
+player = input("Player 1, make your move: ").lower()
+rand_num = random.randint(0,2)
+if rand_num == 0: 
+    computer = "rock"
+elif rand_num == 1:
+    computer = "paper"
+elif rand_num == 2:
+    computer = "scissor"
+print(f"computer plays {computer} ")
+
+if  player == computer:
     print("Its's a tie")
-elif player1 == "rock":
-    if player2 == "scissors":
-        print ("player1 wins!")
-    elif player2 == "paper":
-        print("player2 wins!")
-elif player1 == "paper":
-    if player2 == "rock":
-        print ("player1 wins!")
-    elif player2 == "scissor":
-        print("player2 wins!")
-elif player1 == "scissors":
-    if player2 == "rock":
-        print("player2 wins!")
-    elif player2 == "rock":
-        print ("player2 wins")
+elif player == "rock":
+    if computer == "scissors":
+        print ("player wins!")
+    else:
+        print("computer wins!")
+elif player == "paper":
+    if computer == "rock":
+        print ("player wins!")
+    elif computer == "scissor":
+        print("computer wins!")
+elif player == "scissors":
+    if computer == "rock":
+        print("computer wins!")
+    elif computer == "rock":
+        print ("computer wins")
 else: 
     print("something went wrong")
