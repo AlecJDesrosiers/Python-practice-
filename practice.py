@@ -120,14 +120,53 @@
 # else:
 #     print("you are a child or senior")
 
-age = input("How old are you:")
-if age != "":
-    age = int(age)
-    if age >= 18 and age < 21: 
-        print("You can enter but need a wrist band")
-    elif age >= 21:
-        print("You are good to come in and drink")
-    else: 
-        print("You can't come in, little one! :(")
-else:
-    print("enter an age")
+# age = input("How old are you:")
+# if age != "":
+#     age = int(age)
+#     if age >= 18 and age < 21: 
+#         print("You can enter but need a wrist band")
+#     elif age >= 21:
+#         print("You are good to come in and drink")
+#     else: 
+#         print("You can't come in, little one! :(")
+# else:
+#     print("enter an age")
+
+# for number in range(1,8):
+#     print(number)
+#     print(number * number)
+
+# for letter in "coffee":
+#     print(letter)
+
+# times = input("How many times do I gave to tell you? ")
+# times = int(times)
+
+# for time in range(times):
+#     print(f"time {time+1}:Clean up your room!")
+
+# for num in range(1,21):
+#     if num == 4 or num == 13:
+#         print(f"{num} is unlucky")
+#     elif num % 2 == 0:
+#         print(f"{num} is even")
+#     else:
+#         print(f"{num} is odd")
+
+# num = 1 
+# while num < 11: 
+#     print(num)
+#     num +=2
+
+# for num in range(0,11):
+#     count = 1
+#     smileys = ""
+#     while count <= num:
+#         smileys += "b"
+#         count += 1
+#         print("b" * num)
+
+# msg = input("Say somethig: ")
+
+# while msg != "stop copying me": 
+#     print(msg)
