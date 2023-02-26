@@ -170,3 +170,40 @@
 
 # while msg != "stop copying me": 
 #     print(msg)
+# while True:
+#     command = input("Type 'exit' to exit:")
+#     if (command == "exit" ):
+#         break
+# times = int(input("How many times do I have to tell you "))
+# for time in range(times):
+#     print("Clean up your room")
+#     if time >= 4:
+#         print("do you even listen anymore")
+#         break
+
+
+# import random  # use randint(a, b) to generate a random number between a and b
+# number = 0 # store random number in here, each time through
+# i = 0  # i should be incremented by one each iteration
+
+# while number != 5:
+#     i += 1 
+#     number= randint(1, 10)
+
+# import random 
+
+# random_number = random.randint(1,10)
+# guess = None 
+
+# while guess != random_number:
+#     guess = input("pick a number from 1 to 10: ")
+#     guess = int(guess)
+#     if guess < random_number:
+#         print ("Too low!")
+#     elif guess > random_number:
+#         print("Too High!")
+#     else:
+#         print("You Won!")
+# print(random_number)
+
+colors = ['purple', 'blue', 'orange']
