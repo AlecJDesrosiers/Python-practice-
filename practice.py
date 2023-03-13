@@ -206,4 +206,37 @@
 #         print("You Won!")
 # print(random_number)
 
-colors = ['purple', 'blue', 'orange']
+# colors = ["yellow", "blue", "red"]
+# for color in colors:
+#     print(color)
+
+# colors = ["yellow", "blue", "red"]
+# index = 0 
+# while index < len(colors):
+#     print(f"{index}:{colors[index]}")
+#     index += 1
+
+# sounds = ["super", "cali", "fragil", "istic", "expi", "ali", "docious"]
+# # Define your code below:
+# result = ''
+# for s in sounds:
+#     result += s
+# result = result.upper()
+
+# data = [1, 2, 3]
+# data.append("purple")
+# print (data)
+
+# numbers = [5,6,7,8,9,10]
+
+# numbers.index(6) 
+# numbers.index(9)
+# print (numbers)
+
+instructors = [""]
+# Add the following strings to the instructors list 
+    # "Colt"
+    # "Blue"
+    # "Lisa"
+x="instructors".join("Colt" "Blue" "Lisa")
+print(x)
