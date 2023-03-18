@@ -233,10 +233,36 @@
 # numbers.index(9)
 # print (numbers)
 
-instructors = [""]
-# Add the following strings to the instructors list 
-    # "Colt"
-    # "Blue"
-    # "Lisa"
-x="instructors".join("Colt" "Blue" "Lisa")
-print(x)
+# instructors = [""]
+# # Add the following strings to the instructors list 
+#     # "Colt"
+#     # "Blue"
+#     # "Lisa"
+# x="instructors".extend(["Colt" "Blue" "Lisa"])
+# print(x)
+
+# Items = ["1","2","3"]
+# x=Items.remove(1)
+# print(x)
+
+# nums = [1,2,3]
+# x=[x*10 for x in nums]
+# print(x)
+
+# nums = [1,2,3]
+# x=[nums*10 for num in range(1,6)]
+# print(x)
+
+# list = ["Elie", "Tim", "Matt"]
+# answer =[person[0] for person in ["Elie", "Tim", "Matt"]]
+# print(answer)
+
+
+# answer2 = [val for val in [1,2,3,4,5,6] if val % == 0]
+# print(answer2)
+
+# [varname for varname in (list)]
+
+nums = [1,2,3]
+[x*10 for x in nums]
+print(nums)
